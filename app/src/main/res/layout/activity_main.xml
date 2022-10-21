@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView15"
+                android:name="com.laprima.kukuapp1.FeedingChicken"
+                android:layout_width="409dp"
+                android:layout_height="187dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="175dp"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView16"
+                android:name="com.laprima.kukuapp1.Health"
+                android:layout_width="413dp"
+                android:layout_height="175dp"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="362dp"
+                tools:ignore="MissingConstraints" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView17"
+                android:name="com.laprima.kukuapp1.HousingChicken"
+                android:layout_width="414dp"
+                android:layout_height="192dp"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="539dp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="218dp"
+                android:layout_height="100dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Chicken Breeds"
+                tools:ignore="Autofill,HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="219dp" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView18"
+                android:name="com.laprima.kukuapp1.ChickenBreed"
+                android:layout_width="410dp"
+                android:layout_height="168dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="7dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="218dp"
+                android:layout_height="97dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Chicken Feeding"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="50dp"
+                tools:ignore="HardcodedText,MissingConstraints"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="225dp"
+                android:layout_height="97dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Chicken Health"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="398dp"
+                android:importantForAutofill="no" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="226dp"
+                android:layout_height="96dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Chicken Housing"
+                tools:ignore="Autofill,HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="567dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
