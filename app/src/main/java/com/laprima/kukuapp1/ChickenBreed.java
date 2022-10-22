@@ -3,6 +3,7 @@ package com.laprima.kukuapp1;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import android.os.Build;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,5 +61,7 @@ public class ChickenBreed extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_chicken_breed, container, false);
+
+
     }
 }
