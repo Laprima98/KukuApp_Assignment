@@ -3,15 +3,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">This is the KukuApp designed having the given specifications</string>
     <string name="title_activity_breeds_of_chicken">BreedsOfChicken</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_health">Health</string>
     <string name="title_activity_feeding_chicken">FeedingChicken</string>
     <string name="title_activity_housing_for_chicken">HousingForChicken</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Breeds of Chicken</string>
+    <string name="second_fragment_label">Health of Chicken</string>
+    <string name="third_fragment_label">Feeding for Chicken</string>
+    <string name="fourth_fragment_label">Housing for Chicken</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="first_fragment_breed">Hello this is where the chicken breeds available are available</string>
+    <string name="second_fragment_health">Hello this is where you get to know how to keep the chicken health</string>
+    <string name="third_fragment_feeding">Hello this is where you get to know how to feed the chicken</string>
+    <string name="fourth_fragment_housing">Hello this is where you get to know how to house the chicken</string>
+
 </resources>
