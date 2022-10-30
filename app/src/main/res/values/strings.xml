@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">KukuApp1</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">This is the KukuApp designed having the given specifications</string>
+    <string name="main_fragment">This is the KukuApp designed having the given specifications</string>
     <string name="title_activity_breeds_of_chicken">BreedsOfChicken</string>
     <string name="title_activity_health">Health</string>
     <string name="title_activity_feeding_chicken">FeedingChicken</string>
