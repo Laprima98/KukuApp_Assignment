@@ -17,22 +17,26 @@
             android:name=".HousingForChicken"
             android:exported="false"
             android:label="@string/title_activity_housing_for_chicken"
-            android:theme="@style/Theme.KukuApp1.NoActionBar" />
+            android:theme="@style/Theme.KukuApp1.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".FeedingChicken"
             android:exported="false"
             android:label="@string/title_activity_feeding_chicken"
-            android:theme="@style/Theme.KukuApp1.NoActionBar" />
+            android:theme="@style/Theme.KukuApp1.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".Health"
             android:exported="false"
             android:label="@string/title_activity_health"
-            android:theme="@style/Theme.KukuApp1.NoActionBar" />
+            android:theme="@style/Theme.KukuApp1.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".BreedsOfChicken"
             android:exported="false"
             android:label="@string/title_activity_breeds_of_chicken"
-            android:theme="@style/Theme.KukuApp1.NoActionBar" />
+            android:theme="@style/Theme.KukuApp1.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

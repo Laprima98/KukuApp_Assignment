@@ -11,10 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-
 public class MainActivity extends AppCompatActivity {
-
-    //public View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,32 +20,30 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
-    public void selectFrag(View view) {
-        //this.view = view;
+    private void selectFrag(View view) {
 
         Fragment fr;
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
 
-        if (view == findViewById(R.id.button4)) { //Button 2 pressed
+        if (view == findViewById(R.id.button4)) { //Button 4 pressed
             fr = new HousingForChicken(); //Instantiate Fragment One
             fragmentTransaction.replace(R.id.fragment_place, fr);
             fragmentTransaction.commit();
 
 
-        } else if (view == findViewById(R.id.button3)) { //Button 1 pressed){                                  //Button 1 pressed
-            fr = new FeedingChicken(); //Instantiate Fragment One
+        } else if (view == findViewById(R.id.button3)) { //Button 3 pressed)
+            fr = new FeedingChicken(); //Instantiate fragment
             fragmentTransaction.replace(R.id.fragment_place, fr);
             fragmentTransaction.commit();
 
-        }else if (view == findViewById(R.id.button2)) { //Button 1 pressed){                                  //Button 1 pressed
-            fr = new Health(); //Instantiate Fragment One
+        } else if (view == findViewById(R.id.button2)) { //Button 2 pressed)
+            fr = new Health(); //Instantiate fragment
             fragmentTransaction.replace(R.id.fragment_place, fr);
             fragmentTransaction.commit();
 
-        }else if (view == findViewById(R.id.button1)) { //Button 1 pressed){                                  //Button 1 pressed
-            fr = new BreedsOfChicken(); //Instantiate Fragment One
+        } else if (view == findViewById(R.id.button1)) { //Button 1 pressed)
+            fr = new BreedsOfChicken(); //Instantiate fragment
             fragmentTransaction.replace(R.id.fragment_place, fr);
             fragmentTransaction.commit();
 
@@ -58,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
 
 
 
