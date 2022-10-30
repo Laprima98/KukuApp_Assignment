@@ -1,11 +1,13 @@
 package com.laprima.kukuapp1;
 
 
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.webkit.WebView;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -16,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
+
+        //WebView myWebView = new WebView(R.style.activity_context);
+        //setContentView(WebView);
     }
 
     private void selectFrag(View view) {
